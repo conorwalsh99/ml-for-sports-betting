@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "ml_for_sports_betting"
+version = "0.1.0"
+description = "NBA betting experiment comparing the success of systems using accuracy and calibration, respectively, as the evaluation metric for selection of the predictive model."
+authors = ["conorwalsh99 <conorwalsh206@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.4"
+pandas = "^2.2.1"
+matplotlib = "^3.9.1"
+scikit-learn = "^1.4"
+hyperopt = "0.2.7"
+scipy = "^1.12.0"
+calibra = "^0.3.2"
+toml = "^0.10.2"
+joblib = "^1.4"
+tqdm = "^4.66.2"
+black = "^24.4.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+pytest-cov = "^4.1.0"
+coverage = "^7.4.4"
+black = "^24.2.0"
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+addopts = '-ra --strict-markers'
+xfail_strict = true
+testpaths = 'test'
+filterwarnings = [
+    'once::Warning',
+    'ignore:::importlib[.*]',
+]
+pythonpath=['.', 'src']

@@ -1,0 +1,72 @@
+{
+    "full_feature_set": [
+        "ORtg",
+        "DRtg",
+        "TS%",
+        "eFG%",
+        "FG",
+        "AST",
+        "previous_win_pct",
+        "3P%",
+        "3P",
+        "DRB",
+        "BLK",
+        "3PAr",
+        "AST%",
+        "TRB%",
+        "BLK%",
+        "PF",
+        "STL%",
+        "STL",
+        "TOV",
+        "TOV%",
+        "FT",
+        "FT%",
+        "ORB%",
+        "DRB%",
+        "FTr"
+    ],
+    "dropped_by_filter": [
+        "BLK%",
+        "STL",
+        "TOV",
+        "TS%",
+        "FT",
+        "3PAr",
+        "DRtg",
+        "DRB%",
+        "FTr",
+        "3P%",
+        "TOV%",
+        "AST%",
+        "eFG%",
+        "TRB%",
+        "FG"
+    ],
+    "remaining_after_filter": [
+        "ORtg",
+        "AST",
+        "previous_win_pct",
+        "3P",
+        "DRB",
+        "BLK",
+        "PF",
+        "STL%",
+        "FT%",
+        "ORB%"
+    ],
+    "dropped_by_wrapper": [
+        "previous_win_pct",
+        "3P",
+        "BLK",
+        "PF",
+        "STL%",
+        "FT%",
+        "ORB%"
+    ],
+    "remaining_after_wrapper": [
+        "ORtg",
+        "DRB",
+        "AST"
+    ]
+}

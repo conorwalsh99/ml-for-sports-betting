@@ -1,0 +1,37 @@
+{
+    "remaining": [
+        "FG",
+        "3P",
+        "3P%",
+        "FT",
+        "FT%",
+        "DRB",
+        "AST",
+        "STL",
+        "BLK",
+        "TOV",
+        "PF",
+        "TS%",
+        "eFG%",
+        "3PAr",
+        "FTr",
+        "ORB%",
+        "DRB%",
+        "TRB%",
+        "AST%",
+        "STL%",
+        "BLK%",
+        "TOV%",
+        "ORtg",
+        "DRtg",
+        "previous_win_pct"
+    ],
+    "dropped": [
+        "FG%",
+        "ORB"
+    ],
+    "significant_p_vals": [
+        0.0056918538283972035,
+        0.005989187294610646
+    ]
+}

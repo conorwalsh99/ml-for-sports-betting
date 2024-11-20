@@ -1,0 +1,28 @@
+{
+    "lr": {
+        "C": 0.7362419924704435,
+        "solver": "liblinear"
+    },
+    "rf": {
+        "criterion": "gini",
+        "max_depth": 7,
+        "max_features": 1,
+        "min_samples_leaf": 6,
+        "min_samples_split": 9,
+        "n_estimators": 95
+    },
+    "svm": {
+        "C": 0.543211507404294,
+        "degree": 4,
+        "kernel": "linear"
+    },
+    "mlp": {
+        "alpha": 0.004726229081520653,
+        "learning_rate_init": 0.002748553888715966,
+        "hidden_layer_sizes": 3,
+        "activation": "identity",
+        "solver": "adam",
+        "batch_size": 32,
+        "learning_rate": "invscaling"
+    }
+}

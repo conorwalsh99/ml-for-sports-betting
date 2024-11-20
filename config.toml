@@ -1,0 +1,80 @@
+[NBA]
+teams = [
+    'Portland Trail Blazers',
+    'Phoenix Suns',
+    'Dallas Mavericks',
+    'Los Angeles Clippers',
+    'Orlando Magic',
+    'New York Knicks',
+    'Cleveland Cavaliers',
+    'Utah Jazz',
+    'Golden State Warriors',
+    'Detroit Pistons',
+    'Washington Wizards',
+    'Sacramento Kings',
+    'Indiana Pacers',
+    'Toronto Raptors',
+    'Philadelphia 76ers',
+    'Brooklyn Nets',
+    'Chicago Bulls',
+    'Boston Celtics',
+    'New Orleans Pelicans',
+    'Charlotte Hornets',
+    'Los Angeles Lakers',
+    'Houston Rockets',
+    'Denver Nuggets',
+    'Minnesota Timberwolves',
+    'Miami Heat',
+    'Milwaukee Bucks',
+    'Atlanta Hawks',
+    'Oklahoma City Thunder',
+    'Memphis Grizzlies',
+    'San Antonio Spurs'
+]
+
+
+[modelling]
+TARGET = 'home_victory'
+BOX_SCORE_STATISTICS = [
+    'FG',                           
+    'FG%', 
+    '3P', 
+    '3P%', 
+    'FT', 
+    'FT%', 
+    'ORB', 
+    'DRB', 
+    'AST', 
+    'STL', 
+    'BLK', 
+    'TOV', 
+    'PF', 
+    'TS%', 
+    'eFG%', 
+    '3PAr', 
+    'FTr', 
+    'ORB%', 
+    'DRB%', 
+    'TRB%', 
+    'AST%', 
+    'STL%', 
+    'BLK%', 
+    'TOV%',     
+    'ORtg', 
+    'DRtg',
+    # 'USG%', player-level feature that has no meaning at team-level 
+    # 'TRB', being a linear combination of DRB and ORB all info supplied by TRB is redundant.
+    # 'FGA', being a linear combination of FG and FG% all info supplied by TRB is redundant.
+    # '3PA', being a linear combination of 3P and 3P% all info supplied by TRB is redundant.
+    # 'FTA', being a linear combination of FT and FT% all info supplied by TRB is redundant.
+]
+ADDITIONAL_FEATURES = [
+    'previous_win_pct'
+]
+GAME_IDENTIFIER_COLS = [
+    'Date', 
+    'Visitor/Neutral', 
+    'PTS', 
+    'Home/Neutral',
+    'PTS.1',
+]

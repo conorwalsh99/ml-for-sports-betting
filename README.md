@@ -1,4 +1,4 @@
-# Machine Learning for Sports Betting: Should Model Selection be Based on Accuracy or Calibration?
+# Machine learning for sports betting: Should model selection be based on accuracy or calibration?
 
 ## Overview
 
@@ -40,7 +40,9 @@ If you use this code in your research or any related work, please cite our paper
 ```
 
 ## License
-    This repository is open-sourced and free to use, modify, and distribute for any purpose as long as you cite the paper. See the LICENSE file for complete details.
+
+This repository is open-sourced and free to use, modify, and distribute for any purpose as long as you cite the paper. See the LICENSE file for complete details.
 
 ## Acknowledgements
-    We appreciate your interest in our work. For any questions, feedback, or contributions, please feel free to contact the corresponding author directly at conorwalsh206@gmail.com.
+
+We appreciate your interest in our work. For any questions, feedback, or contributions, please feel free to contact the corresponding author directly at conorwalsh206@gmail.com.

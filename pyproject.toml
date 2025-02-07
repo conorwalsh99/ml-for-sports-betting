@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "ml_for_sports_betting"
 version = "0.1.0"
-description = "NBA betting experiment comparing the success of systems using accuracy and calibration, respectively, as the evaluation metric for selection of the predictive model."
+description = "Experiment to compare the success of betting systems using either accuracy or calibration for model selection, in the case of the NBA."
 authors = ["conorwalsh99 <conorwalsh206@gmail.com>"]
 readme = "README.md"
 package-mode = false

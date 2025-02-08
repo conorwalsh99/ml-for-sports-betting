@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the code used to run the betting experiments in our paper "Machine learning for sports betting: Should model selection be based on accuracy or calibration?", published in Machine Learning with Applications ([https://doi.org/10.1016/j.mlwa.2024.100539](https://www.sciencedirect.com/science/article/pii/S266682702400015X?via%3Dihub)). The implementation provided here enables reproducibility of our experiments and offers a foundation for further exploration in this domain.
+This repository contains the code used to run the betting experiments in our paper "Machine learning for sports betting: Should model selection be based on accuracy or calibration?", published in Machine Learning with Applications ([https://doi.org/10.1016/j.mlwa.2024.100539](https://www.sciencedirect.com/science/article/pii/S266682702400015X?via%3Dihub)). The implementation provided here enables reproducibility of our experiments and offers a foundation for further exploration in this domain. While archived, this repo is still available to be forked by researchers who wish to build upon this work.
 
 ## Getting Started
 
@@ -45,7 +45,7 @@ This repository is open-sourced and free to use, modify, and distribute for any 
 
 ## Acknowledgements
 
-We appreciate your interest in our work. For any questions, feedback, or contributions, please feel free to contact the corresponding author directly at conorwalsh206@gmail.com.
+We appreciate your interest in our work. For any questions, feedback, or contributions, please feel free to contact the corresponding author directly at conorwalsh206@gmail.com. 
 
 ## Corrigendum Notice
 

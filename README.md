@@ -46,3 +46,9 @@ This repository is open-sourced and free to use, modify, and distribute for any 
 ## Acknowledgements
 
 We appreciate your interest in our work. For any questions, feedback, or contributions, please feel free to contact the corresponding author directly at conorwalsh206@gmail.com.
+
+## Corrigendum Notice
+
+**Important:** During the process of modularising and unit testing of the code in anticipation of making it open-source, some errors were discovered in the original implementation of this project. These errors have been corrected, and a corrigendum has been published. This repository now contains the updated code reflecting those corrections.
+
+For more details on the changes, please refer to the [https://doi.org/10.1016/j.mlwa.2025.100627](https://www.sciencedirect.com/science/article/pii/S2666827025000106).

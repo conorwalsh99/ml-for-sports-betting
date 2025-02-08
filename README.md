@@ -51,4 +51,4 @@ We appreciate your interest in our work. For any questions, feedback, or contrib
 
 **Important:** During the process of modularising and unit testing of the code in anticipation of making it open-source, some errors were discovered in the original implementation of this project. These errors have been corrected, and a corrigendum has been published. This repository now contains the updated code reflecting those corrections.
 
-For more details on the changes, please refer to the [https://doi.org/10.1016/j.mlwa.2025.100627](https://www.sciencedirect.com/science/article/pii/S2666827025000106).
+For more details on the changes, please refer to [https://doi.org/10.1016/j.mlwa.2025.100627](https://www.sciencedirect.com/science/article/pii/S2666827025000106).

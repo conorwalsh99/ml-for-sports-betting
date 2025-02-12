@@ -10,20 +10,24 @@ This repository contains the code used to run the betting experiments in our pap
 
    ```bash
    git clone https://github.com/conorwalsh99/ml-for-sports-betting.git
-   cd ml_for_sports_betting
+    ```
+
+2. **Change directory to project root:**
+   ```bash
+   cd ml-for-sports-betting
     ```
     
-2. **Install dependencies**
+3. **Install dependencies**
     ```
     poetry install
     ```
     
-3. **Run betting experiment pipeline**
+4. **Run betting experiment pipeline**
     ```
     poetry run python src/run_pipeline.py
     ```
 
-Note: The pipeline run can take some time to complete.
+Note: The pipeline run can take some time to complete (approx. 45 mins).
 
 ## Citation
 If you use this code in your research or any related work, please cite our paper:
